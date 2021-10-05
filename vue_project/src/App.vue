@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <input @click="HelloWorld" type="button" value="HelloWorld">
+    <router-view/>
   </div>
 </template>
 
